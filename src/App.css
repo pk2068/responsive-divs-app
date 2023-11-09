@@ -1,0 +1,58 @@
+#root {
+  margin: 0 0;
+}
+
+div {
+  border: 0px dotted gray;
+}
+
+.app-container {
+  display: flex;
+  
+  width: calc(100% - 1px) ;
+  height: 100%;
+  max-height: 100%;
+
+  flex-direction: column;
+  justify-content: stretch; 
+  align-items: stretch; 
+  
+  background-color: red;
+  overflow-y: hidden;
+  padding: 00px;
+  /* margin: 0px 0px 50px 0px;   */
+}
+
+
+.gridContainer {
+  background: gold;
+  border: 0px solid green;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+
+}
+
+.gridContainerRow1 {
+  flex: 0 0 auto;
+}
+
+.gridContainerRow2 {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+  overflow-y: hidden;
+  background: pink;
+}
+
+.gridContainerRow3 {
+  flex: 0 0 auto;
+  background: aquamarines;
+  border-top-color: red;
+  border-bottom-color: red;
+  color: orangered;
+}
