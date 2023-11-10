@@ -44,7 +44,7 @@ export const ServicesGrid: FC<{}> = props => {
     const [row1Height, setRow1Height] = useState<number>(0)
     const [row2Height, setRow2Height] = useState<number>(0)
     const [row3Height, setRow3Height] = useState<number>(0)
-    const [proposedProperHeight, setProposedProperHeight] = useState<number>(200)
+    const [proposedProperHeight, setProposedProperHeight] = useState<number>(200) // this one is important
 
     //#endregion
 
